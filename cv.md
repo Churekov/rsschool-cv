@@ -1,4 +1,4 @@
-# __[rsschool-cv]()__
+# __[rsschool-cv](https://github.com/Churekov/rsschool-cv/blob/gh-pages/cv.md)__
 
 # __Sergey Churekov__
 
@@ -19,14 +19,14 @@ I want to learn Front-End Development.
 ## __Code Example__
 
 ## __Experience__
-No experience
+No experience in IT.
 ## __Education__ 
-
+[«Волгоградский государственный технический университет»](https://www.sfvstu.ru/)
 - __Courses:__
-
+HTML, CSS, Git video courses on YouTube.
 
 ## __English__
-
+A1-Beginner.
 
 
 
