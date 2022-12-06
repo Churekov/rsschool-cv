@@ -17,7 +17,11 @@ I want to learn Front-End Development.
 - Git
 
 ## __Code Example__
-
+```
+function multiply(a, b){
+ return a * b
+}
+```
 ## __Experience__
 No experience in IT.
 ## __Education__ 
