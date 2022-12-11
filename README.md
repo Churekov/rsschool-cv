@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/Churekov/rsschool-cv/blob/gh-pages/cv
+https://Churekov.github.io/rsschool-cv/cv
