@@ -1,2 +1,2 @@
 # rsschool-cv
-My first repository
+https://Churekov.github.io/rsschool-cv/
