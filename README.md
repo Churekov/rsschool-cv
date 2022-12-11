@@ -1,1 +1,1 @@
-https://github.com/Churekov/rsschool-cv/blob/gh-pages/cv.md
+https://Churekov.github.io/rsschool-cv/
