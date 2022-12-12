@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+ul, ul li {
+	list-style: none;
+}
 a{
     text-decoration: none;
     color: white;
@@ -62,6 +65,10 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url(./img/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .header_wrapper {
     max-width: 630px;
@@ -76,4 +83,28 @@ html{
     background-color: blue;
     padding: 12px 28px;
     border-radius: 5px;
+}
+.project{
+    background-color: #E5E5E5;
+    padding: 30px;
+}
+.project_title {
+    padding: 40px;
+    text-align: center;
+}
+.section_project-item>ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    justify-items: center;
+}
+.project-item{
+    background-image: url(./img/loader.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+}
+.project-item:last-child{
+    margin-bottom: 10px;
 }
