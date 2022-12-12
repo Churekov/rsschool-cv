@@ -15,6 +15,9 @@ h1{
     font-size: 40;
     line-height: 1.4;
 }
+h2{
+    font-size: 35px;
+}
 html{
     font-style: italic;
 }
@@ -49,9 +52,9 @@ html{
     column-gap: 50px;
 }
 .nav_item-link {
+    font-size: 30px;
 }
 .nav_item-link--active:hover{
-    background-color: white;
     color: blue;
     border-bottom: 1px blue solid;
     border-radius: 5px;
@@ -106,5 +109,47 @@ html{
     padding: 100px;
 }
 .project-item:last-child{
-    margin-bottom: 10px;
+    margin-bottom: 70px;
+}
+.footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center
+    
+}
+.footer_link {
+    max-width: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
+.footer_link-item {
+}
+.end{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.section_skills{
+    background-color: black;
+    border-bottom: 1px #26292D solid;
+    padding: 40px;
+}
+.section_skills-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section_skills-list>ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.skills_list-item>img{
+    width: 150px;
 }
