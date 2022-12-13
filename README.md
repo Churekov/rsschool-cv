@@ -1,3 +1,3 @@
 # rsschool-cv
 https://Churekov.github.io/rsschool-cv/cv
-https://Churekov.github.io/rsschool-cv/
+https://churekov-cv-cross-check.netlify.app
