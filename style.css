@@ -1,4 +1,159 @@
-* {
-margin: 0;
-padding: 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ul li {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-weight: 700;
+    font-size: 40;
+    line-height: 1.4;
+}
+h2{
+    font-size: 35px;
+}
+html{
+    font-style: italic;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.nav{
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    border-bottom: 1px #26292D solid;
+}
+.nav_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.nav_logo{
+
+}
+.logo_link{
+    font-weight: bold;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.nav_item-link {
+    font-size: 30px;
+}
+.nav_item-link--active:hover{
+    color: blue;
+    border-bottom: 1px blue solid;
+    border-radius: 5px;
+}
+.header{
+    background-color: black;
+    color: white;
+    min-height: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./img/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.header_wrapper {
+    max-width: 630px;
+}
+.header_title {
+    font-size: 30px;
+}
+.header_text{
+    padding-bottom: 30px;
+}
+.header_text-link{
+    background-color: blue;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+.project{
+    background-color: #E5E5E5;
+    padding: 30px;
+}
+.project_title {
+    padding: 40px;
+    text-align: center;
+}
+.section_project-item>ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    justify-items: center;
+}
+.project-item{
+    background-image: url(./img/loader.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+}
+.project-item:last-child{
+    margin-bottom: 70px;
+}
+.section_skills{
+    background-color: black;
+    border-bottom: 1px #26292D solid;
+    padding: 40px;
+}
+.section_skills-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section_skills-list>ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.skills_list-item>img{
+    width: 150px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center
+    
+}
+.footer_link {
+    max-width: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
+.footer_link{
+    padding: 20px 0;
+}
+.end{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.rs_school{
+    background-color: white;
+    border-radius: 5px;
 }
