@@ -111,29 +111,6 @@ html{
 .project-item:last-child{
     margin-bottom: 70px;
 }
-.footer {
-    background-color: black;
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center
-    
-}
-.footer_link {
-    max-width: 210px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    align-items: center;
-}
-.footer_link-item {
-}
-.end{
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-}
 .section_skills{
     background-color: black;
     border-bottom: 1px #26292D solid;
@@ -152,4 +129,31 @@ html{
 }
 .skills_list-item>img{
     width: 150px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center
+    
+}
+.footer_link {
+    max-width: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
+.footer_link{
+    padding: 20px 0;
+}
+.end{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.rs_school{
+    background-color: white;
+    border-radius: 5px;
 }
